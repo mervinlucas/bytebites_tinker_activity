@@ -17,6 +17,7 @@ classDiagram
         +list items
         +add_item(item) None
         +filter_by_category(category) list
+        +sort_by_price() list
     }
 
     class Order {

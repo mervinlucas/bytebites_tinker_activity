@@ -43,6 +43,10 @@ class Menu:
                 matching_items.append(item)
         return matching_items
 
+    def sort_by_price(self):
+        """Return a new list of menu items sorted by price, lowest to highest."""
+        return sorted(self.items, key=lambda item: item.price)
+
 
 class Order:
     def __init__(self):
