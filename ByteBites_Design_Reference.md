@@ -9,6 +9,10 @@ Do not add authentication logic, a database layer, or any features not described
 in the spec.
 
 ## Behavioral Instructions
-<!-- Write a short set of instructions guiding how your AI assistant should behave 
-when helping with this project — for example, which classes to stay within, 
-what complexity to avoid, or any preferences for how suggestions are structured. -->
+Keep the project simple and beginner-friendly. Use only the four classes defined in the specification: Customer, MenuItem, Menu, and Order. Do not introduce extra classes, databases, APIs, or unnecessary features.
+
+Follow the requirements in bytebites_spec.md and keep all code consistent with the approved UML diagram. Each class should have only the attributes and methods needed for its responsibilities.
+
+Use basic Python concepts, lists, loops, and simple methods. Avoid advanced techniques and unnecessary libraries. Explain proposed changes briefly and clearly before making them. When generating code, keep it readable and easy for a beginner to understand.
+
+Do not modify files unless I explicitly ask you to. If a requirement is unclear or a design conflicts with the specification, point it out and ask before adding new functionality.
